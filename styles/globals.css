@@ -1,0 +1,43 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+
+.modal{
+    z-index: 111111111;
+}
+
+.enquiry {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    border-color: #ff2b88;
+    padding: 10px 50px;
+    background-color: #ff2b88;
+    color: #fff;
+    z-index: 11;
+}
+
+.owl-dots {
+    display:none;
+}
+.width-resize {
+    min-width:754px !important; 
+}
+
+.navbar-nav ul li a{
+    text-transform:uppercase !important ;
+  }
+
+
+  .home-banner-section{
+    background-image: url(../public/images/home-banner.jpg) !important;
+  }
+
+  .active{
+    /* border:2px solid lightgrey !important; */
+    /* outline:2px solid lightgrey !important; */
+    border:none !important
+  }
+
+  /* .select2-show-search{
+    border:1px solid lightblue !important;
+  } */

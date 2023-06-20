@@ -1,0 +1,261 @@
+/* .leftScrollBar {
+    overflow: auto;
+    direction:rtl;
+    position: relative;
+    z-index: 1111122;
+}
+ */
+
+.pulse-div{
+    bottom:100px !important;
+}
+
+.enquiry:hover .enquiry-toggle {
+    display: block;
+}
+
+.mybackground {
+    background-color: rgb(250, 109, 57) !important;
+    height: 50px;
+    transition: all 10s linear;
+    border-radius: 5px;
+}
+
+.mybackground:hover {
+    background-color: rgb(250, 109, 57) !important;
+    width: 200px;
+}
+
+.mybackground:hover .enquiry-hide-show {
+    display: inline;
+}
+
+.enquiry-hide-show {
+    display: none;
+}
+
+.search-background {
+    background-color: #12599e !important;
+    color: white;
+}
+
+.search-background:hover {
+    color: rgb(236, 215, 215);
+}
+
+.pdf-background {
+    background-color: rgb(250, 109, 57) !important;
+    color: white;
+}
+
+.pdf-background:hover {
+    color: rgb(223, 215, 215) !important;
+}
+
+.liner-gradient-background {
+    background: linear-gradient(to bottom, white, rgb(250, 250, 250));
+    /* background-color: rgb(233, 231, 229); */
+}
+
+.my-breadcrum {
+    padding: 23px;
+}
+
+.my-footer {
+    padding-bottom: 75px;
+}
+
+.home-banner {
+    background-color: #12599e !important;
+}
+
+.my-menu-items:hover {
+    background-color: #12599e !important;
+}
+
+
+/* .about-page-content h1,h2,h3,h4,h5{
+    text-align: center;
+    padding: 10px;
+} */
+/* .about-page-content p{
+    text-align: center;
+    padding: 10px;
+}
+.about-page-content li{
+    text-align: center;
+}
+
+.about-page-content strong{
+    color: rgb(55, 0, 255);
+    font-size: 20px;
+} */
+
+.home-search-tabs:hover{
+    background-color: rgb(255, 255, 222) !important
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.certificateWrapper {
+    background-image: url(certificate.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 650px;
+    min-height: 920px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.certificateWrapper h1 {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    text-align: center;
+    top: 400px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #f68221;
+}
+
+.certificateWrapper h2 {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    text-align: center;
+    top: 520px;
+    font-weight: 700;
+    font-size: 26px;
+    color: #111111
+}
+
+.certificateWrapper h3 {
+    position: absolute;
+    left: 55px;
+    top: 600px;
+    font-size: 16px;
+    color: #111111;
+}
+
+.certificateWrapper h4 {
+    position: absolute;
+    left: 55px;
+    top: 630px;
+    font-size: 16px;
+    color: #111111;
+}
+
+.certificateWrapper h5 {
+    position: absolute;
+    left: 55px;
+    top: 660px;
+    font-size: 16px;
+    color: #111111;
+}
+
+.certificateWrapper h6 {
+    position: absolute;
+    left: 55px;
+    top: 690px;
+    font-size: 16px;
+    color: #111111;
+}
+
+.certificateWrapper h3 span,
+.certificateWrapper h4 span,
+.certificateWrapper h5 span,
+.certificateWrapper h6 span {
+    color: #f68221;
+}
+
+@media print {
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;700&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Mulish', sans-serif;
+    }
+
+    .certificateWrapper {
+        width: 650px;
+        min-height: 920px;
+        margin: 20px auto;
+        position: relative;
+    }
+
+    .certificateWrapper img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 650px;
+        min-height: 920px;
+    }
+
+    .certificateWrapper h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        top: 400px;
+        font-weight: 700;
+        font-size: 32px;
+        color: #f68221;
+        z-index: 999
+    }
+
+    .certificateWrapper h2 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        top: 520px;
+        font-weight: 700;
+        font-size: 20px;
+        color: #111111
+    }
+
+    .certificateWrapper h3 {
+        position: absolute;
+        left: 52px;
+        top: 600px;
+        font-size: 16px;
+        color: #111111;
+    }
+
+    .certificateWrapper h4 {
+        position: absolute;
+        left: 52px;
+        top: 630px;
+        font-size: 16px;
+        color: #111111;
+    }
+
+    .certificateWrapper h5 {
+        position: absolute;
+        left: 52px;
+        top: 660px;
+        font-size: 16px;
+        color: #111111;
+    }
+
+    .certificateWrapper h6 {
+        position: absolute;
+        left: 52px;
+        top: 690px;
+        font-size: 16px;
+        color: #111111;
+    }
+}
+
+
+.course-list-menu{
+    text-transform: capitalize !important;
+}
+
